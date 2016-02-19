@@ -1,0 +1,259 @@
+@charset "utf-8";
+
+/*全局*/
+body{
+	font-size:62.5%;
+}
+
+a:link,a:visited,a:hover,a:active{
+
+}
+a:link,a:visited,a:hover,a:active{
+    text-decoration: none;
+}
+
+
+.w_per100{ width: 100%; }
+.w_per90{ width: 90%; }
+.w_per618{ width: 61.8%; }
+.w_per382{ width: 38.2%; }
+
+.w_per25{width: 25%;}
+.w_per40{width: 40%;}
+.w_per60{width: 60%;}
+.w_per75{width: 75%;}
+
+
+/* 头部 */
+.header{
+
+}
+
+/* main */
+.main{
+
+}
+
+/* footer*/
+.footer{
+
+}
+
+
+
+/*
+	布局
+*/
+.g_col_2{ }
+.g_col_2 .span{ width: 50%; float: left; }
+
+.g_col_3{ }
+.g_col_3 .span{ width:33.33333333333%; float: left; }
+
+.g_col_4{ }
+.g_col_4 .span{ width: 25%; float: left; }
+
+.g_col_5{ }
+.g_col_5 .span{ width:20%; float: left; }
+
+.g_col_6{ }
+.g_col_6 .span{ width: 16.6666666666666%; float: left; }
+
+.g_col_6{ }
+.g_col_6 .span{ width: 16.6666666666666%; float: left; }
+
+.g_col_2575{}
+.g_col_2575 .w_per25{ width: 25%; float: left;}
+.g_col_2575 .w_per75{ width: 75%; float: right;}
+
+
+
+
+/*
+	元件
+*/
+
+.u_btn{
+	display: inline-block;
+	background:none;
+	background-color: #398de3;
+	border: none;
+	font-family:"Helvetica Neue",Helvetica,Arial,"Microsoft YaHei","微软雅黑",STXihei,"华文细黑",SimSun,"宋体",sans-serif; 
+	text-align: center;
+	vertical-align: middle;
+	color:#fff;
+	line-height: 3em;
+	font-size: 1.4em;
+	outline: none;
+	cursor: pointer;
+	width: 100%;
+	border-radius: 4px;
+}
+
+.u_btn:hover,
+.u_btn.hover{ background-color: #2c6eb0; color:#fff; }
+
+.u_btn:hover,
+.u_btn:active,
+.u_btn.active,
+.u_btn.disabled,
+.u_btn[disabled]{ background-color: #2c6eb0; }
+
+.u_btn:focus { }
+
+.u_btn_info{ }
+.u_btn_info:hover,
+.u_btn_info.hover{}
+
+.u_btn_success{ background-color: #37ba3a; }
+.u_btn_success:hover,
+.u_btn_success.hover{ background-color: #29872a; }
+
+.u_btn_warning{ background-color: #ffce3d; }
+.u_btn_warning:hover,
+.u_btn_warning.hover{ background-color: #cca531; }
+
+.u_btn_danger{ background-color: #e74c3c; }
+.u_btn_danger:hover,
+.u_btn_danger.hover{ background-color: #c0392b; }
+
+.u_btn_disabled{ background-color: #e74c3c; }
+
+.u_btn_disabled:hover,
+.u_btn_disabled.hover,
+.u_btn.disabled,
+.u_btn[disabled]{ background-color: #cccccc; color: #999999;cursor: not-allowed; }
+
+.e_btn_orange{ background-color: #f66a00; }
+.e_btn_orange:hover,
+.e_btn_orange.hover{ background-color: #c25400; }
+
+.e_btn_fillet{ border: 1px solid #cccccc; display: inline-block; text-align: center; background: #f7f7f7; border-radius: 4px; color: #323232; }
+.e_btn_fillet:hover{ color: #fff; border: 1px solid #2c6eb0; }
+
+.e_btn_fillet.disabled,
+.e_btn_fillet[disabled],
+.e_btn_fillet.disabled:hover,
+.e_btn_fillet[disabled]:hover{ background-color: #e2e2e2; color: #cccccc; border: 1px solid #e2e2e2; cursor: not-allowed; }
+
+
+.u_btnghost{ margin: 10px 6px; font-size: 1.2em; background-color: transparent; color: #398de3; border: 1px solid #398de3; line-height: 3em; font-size: 1.4em; width: auto; }
+.u_btnghost:hover,
+.u_btnghost.hover{ color:#fff; background-color: #398de3; }
+
+.e_btn_success{ color: #37ba3a; border: 1px solid #37ba3a; }
+.e_btn_success:hover,
+.e_btn_success.hover{ color:#fff; background-color: #37ba3a; }
+
+.e_btn_warning{ color: #e74c3c; border: 1px solid #e74c3c; }
+.e_btn_warning:hover,
+.e_btn_warning.hover{ color:#fff; background-color: #e74c3c; }
+
+.e_btn_danger{ color: #e74c3c; border: 1px solid #e74c3c; }
+.e_btn_danger:hover,
+.e_btn_danger.hover{ color:#fff; background-color: #e74c3c; }
+
+.e_btn_orange{ color: #f66a00; border: 1px solid #f66a00; }
+.e_btn_orange:hover,
+.e_btn_orange.hover{ color:#fff; background-color: #f66a00; }
+
+.e_btn_gray{ color: #bebebe; border: 1px solid #bebebe; }
+.e_btn_gray:hover,
+.e_btn_gray.hover{ color:#fff; background-color: #bebebe; }
+
+
+/*
+	模块
+*/
+
+
+
+
+/*
+	功能
+*/
+
+
+
+/*
+	状态
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+	全局
+	
+	  	  主色
+	 	  辅色 
+    	高亮色
+    	阴影色
+    	点睛色
+    	背景色
+
+	  字体颜色 
+
+	主标题颜色 
+	副标题颜色 
+	  正文颜色 
+	
+	  过渡颜色
+
+	主标题大小 
+	副标题大小 
+	  正文大小 14px
+
+	主标题行高 
+	副标题行高 
+	  正文行高 
+
+		  边距
+		内填充
+
+*/
+
+
+/*
+
+布局（grid）（.g-）：
+将页面分割为几个大块，通常有头部、主体、主栏、侧栏、尾部等！
+
+模块（module）（.m-）：
+通常是一个语义化的可以重复使用的较大的整体！比如导航、登录、注册、各种列表、评论、搜索等！
+
+元件（unit）（.u-）：
+通常是一个不可再分的较为小巧的个体，通常被重复用于各种模块中！比如按钮、输入框、loading、图标等！
+
+功能（function）（.f-）：
+为方便一些常用样式的使用，我们将这些使用率较高的样式剥离出来，按需使用，通常这些选择器具有固定样式表现，比如清除浮动等！不可滥用！
+
+皮肤（skin）（.s-）：
+如果你需要把皮肤型的样式抽离出来，通常为文字色、背景色（图）、边框色等，非换肤型网站通常只提取文字色！非换肤型网站不可滥用此类！
+
+状态（.z-）：
+为状态类样式加入前缀，统一标识，方便识别，她只能组合使用或作为后代出现（.u-ipt.z-dis{}，.m-list li.z-sel{}），具体详见命名规则的扩展相关项。
+
+
+*/
